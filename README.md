@@ -1,0 +1,1 @@
+Some pre-commit default files, copy pasta from [helpscout/bus](https://github.com/helpscout/bus)
