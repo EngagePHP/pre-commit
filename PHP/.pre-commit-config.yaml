@@ -1,5 +1,5 @@
 - repo: git@github.com:pre-commit/pre-commit-hooks
-  sha: 0.7.1
+  sha: v0.7.1
   hooks:
   - id: check-json
     stages: [commit]
@@ -18,7 +18,7 @@
   - id: check-added-large-files
     stages: [commit]
 - repo: git@github.com:hootsuite/pre-commit-php.git
-  sha: 1.2.0
+  sha: v1.2.0
   hooks:
   - id: php-lint-all
     stages: [commit,push]
@@ -29,7 +29,7 @@
     files: \.(php)$
     args: ['--standard=PSR2 -p']
 - repo: git://github.com/Lucas-C/pre-commit-hooks
-  sha: 1.0.1
+  sha: v1.0.1
   hooks:
   - id: remove-crlf
     stages: [commit]
