@@ -27,7 +27,10 @@
   - id: php-cs
     stages: [commit]
     files: \.(php)$
-    args: ['--standard=PSR2 -p']
+    args: ["--ignore=tests", "--standard=PSR2", "-p"]
+  - id: php-cbf
+    files: \.(php)$
+    args: ["--ignore=tests", "--standard=PSR2", "-p"]
 - repo: git://github.com/Lucas-C/pre-commit-hooks
   sha: v1.0.1
   hooks:
